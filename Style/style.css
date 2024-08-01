@@ -5,8 +5,417 @@
 .inter-font {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 4000;
+  font-weight: 400;
   font-style: normal;
   font-variation-settings:
     "slnt" 0;
+}
+
+/* Share Style */
+.display-flex {
+  display: flex;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.share {
+  color: rgba(255, 255, 255, 0.8)
+}
+
+/* Header Style */
+.header-section {
+  box-sizing: border-box;
+  width: 100%;
+  height: 860px;
+  border: 2px solid red;
+  background-color: rgb(28, 27, 27);
+}
+
+.navbar {
+  justify-content: space-around;
+  align-items: center;
+}
+
+#fitness-title {
+  color: rgb(230, 83, 60);
+  font-style: italic;
+  margin-left: 10px;
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.nav-links {
+  border: 2px solid salmon;
+  width: 480px;
+  height: 60px;
+  list-style: none;
+  gap: 50px;
+  margin-top: 50px;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 39px;
+  align-items: center;
+
+}
+
+#bars {
+  visibility: hidden;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+#home {
+  padding: 5px 10px;
+  border-radius: 11px;
+  color: white;
+  background-color: rgb(230, 83, 60);
+  width: 175px;
+  height: 60px;
+  border: 1px solid red;
+}
+
+.body {
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.body-title {
+  font-size: 78px;
+  font-weight: 900;
+  color: white;
+}
+
+#five {
+  position: relative;
+  top: 160px;
+  left: 280px;
+  width: 180px;
+  height: 100px;
+  color: white;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.1);
+  text-align: center;
+}
+
+#three {
+  position: relative;
+  top: 355px;
+  left: -85px;
+  width: 200px;
+  height: 120px;
+  color: white;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.1);
+  text-align: center;
+}
+
+#ball {
+  position: relative;
+  left: -75px;
+  top: 255PX;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgb(230, 83, 60);
+}
+
+.jhon {
+  margin: 0 auto;
+  width: 400px;
+  height: 650px;
+  background-image: url(../images/Images\ 2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* Change your habbit */
+#change {
+  text-align: center;
+}
+
+.workout-style {
+  justify-content: center;
+  gap: 10px;
+}
+
+.workout-style>div {
+  margin-right: 10px;
+  /* flex: 1; */
+  width: 300px;
+  text-align: center;
+  border: 2px solid red;
+}
+
+.workout-style>div img {
+  border-radius: 50%;
+}
+
+/* Run Extra style start here */
+.extra-run {
+  box-sizing: border-box;
+  /* margin-top: 20px; */
+  width: 1200px;
+  height: 370px;
+  border: 2px solid red;
+  margin: 180px auto;
+  justify-content: space-between;
+  padding: 20px;
+
+}
+
+.extra-descrip {
+  margin-right: 150px;
+  /* width: 300px; */
+  /* height: 300px; */
+}
+
+#dode>img {
+  width: 450px;
+  height: 340px;
+  border-radius: 16px;
+}
+
+/* My Unique Style */
+#hatu img {
+  width: 600px;
+
+}
+
+.reason2 {
+  flex-direction: row-reverse;
+}
+
+/* traning and exercise style */
+.traning {
+  text-align: center;
+
+}
+
+.zeme-style {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  /* justify-content: space-between; */
+}
+
+.zeme-style .div img {
+  width: 100%;
+}
+
+
+
+#img2 img {
+  width: 500px;
+}
+
+/* BMI Calculator Style */
+
+th,
+tr,
+td {
+  border: 1px solid black;
+}
+
+.chart {
+  justify-content: space-around;
+}
+
+
+/* Meet our Teame */
+
+.meet-traning {
+  gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.div1 {
+  background-image: url(../images/trainer1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+}
+
+.div2 {
+  background-image: url(../images/trainer2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.div3 {
+  background-image: url(../images/trainer3.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.div4 {
+  background-image: url(../images/trainer4.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+}
+
+.div5 {
+  background-image: url(../images/trainer5.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.div6 {
+  background-image: url(../images/trainer6.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#positn {
+  position: relative;
+  top: 240px;
+  left: 70px;
+}
+
+#positn h1,
+h4 {
+  color: red;
+}
+
+/* Footer Section Start Here */
+.footer-section {
+  justify-content: space-around;
+}
+
+.footer-section ul {
+  list-style: none;
+}
+
+.footer-section ul li a {
+  text-decoration: none;
+}
+
+#fitness {
+  width: 480px;
+}
+
+/* Responsive For mobile   */
+@media screen and (max-width:576px) {
+
+  #fitness-title {
+    margin-top: 50px;
+  }
+
+  .nav-links {
+    visibility: hidden;
+
+  }
+
+  #bars {
+    color: white;
+    top: -45px;
+    font-size: 2rem;
+    position: relative;
+    right: -310px;
+    visibility: visible;
+  }
+
+  .header-section {
+    height: 100%;
+  }
+
+  .jhon {
+    margin-top: 100px;
+  }
+
+  #five {
+    /* margin-right: -400px; */
+    /* position: relative; */
+    right: 40px;
+  }
+
+  #three {
+    left: 5px;
+  }
+
+  #ball {
+    left: 20px;
+  }
+
+  #header-containt {
+    flex-direction: column;
+
+  }
+
+  .workout-style {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .workout-style>div {
+    margin: 0 auto;
+  }
+
+  .extra-run {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+
+  }
+
+  .extra-descrip {
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+
+  }
+
+  .chart {
+    flex-direction: column;
+  }
+
+  .meet-traning {
+    grid-template-columns: 1fr;
+
+
+  }
+
+  .div1,
+  .div2,
+  .div3,
+  .div4,
+  .div5,
+  .div6 {
+    height: 400px;
+
+  }
+
+  .zeme-style {
+    /* display: grid; */
+    grid-template-columns: 1fr;
+
+  }
+
+  .footer-section {
+    flex-direction: column;
+  }
+
 }
