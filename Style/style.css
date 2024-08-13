@@ -14,6 +14,10 @@
 
 
 /* Share Style */
+body {
+  background-color: black;
+
+}
 
 * {
   box-sizing: border-box;
@@ -22,9 +26,6 @@
   /* border: 2px dashed coral; */
 }
 
-body {
-  /* border: 3px solid green; */
-}
 
 .color-gray {
   color: rgba(255, 255, 255, 0.5);
@@ -94,8 +95,9 @@ img {
 .header-section {
   box-sizing: border-box;
   /* width: 100%; */
-  max-width: 1490px;
-  background-color: black;
+  max-width: 1200px;
+  margin: 0 auto;
+  /* background-color: black; */
   /* height: 860px; */
   /* border: 2px solid red; */
   /* background-color: rgb(28, 27, 27); */
@@ -266,15 +268,11 @@ img {
 }
 
 /* Change your habbit */
-#change-habbits {
-  background-color: black;
 
-
-}
 
 #change-habbit {
+  max-width: 1200px;
   margin: 0 auto;
-  width: 1080px;
   height: 660px
 }
 
@@ -329,10 +327,8 @@ img {
   /* background: black; */
   box-sizing: border-box;
   /* margin-top: 20px; */
-  width: 1200px;
-  /* height: 370px; */
-  /* border: 2px solid red; */
-  margin: 0px auto;
+  max-width: 1200px;
+  margin: 0 auto;
   padding-top: 20px;
   justify-content: space-between;
   padding: 20px;
@@ -362,9 +358,34 @@ img {
 }
 
 /* traning and exercise style */
+#traning-style {
+  max-width: 1200px;
+  margin: 0 auto;
+  /* border: 2px solid red; */
+}
+
 .traning {
   text-align: center;
 
+}
+
+.traning h1 {
+  color: rgb(255, 255, 255);
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.traning p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  text-align: left;
 }
 
 .zeme-style {
@@ -387,24 +408,142 @@ img {
 }
 
 /* BMI Calculator Style */
+.chart-bmi h1 {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+}
 
+.calculate h1 {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.calculate p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  text-align: left;
+}
+
+#bmi-calc {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: rgb(34, 34, 34);
+
+}
+
+#bmi {
+  margin-bottom: 35px;
+}
+
+#bmi h1 {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+#bmi p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  text-align: center;
+}
+
+table,
 th,
 tr,
 td {
   border: 1px solid black;
+  border-collapse: collapse;
+  padding: 6px 35px
 }
+
 
 .chart {
   justify-content: space-around;
 }
 
+#input {
+  margin-top: 10px;
+  width: 200px;
+  height: 40px;
+  border-radius: 8px;
+  padding-left: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  margin-bottom: 10px;
+  outline: none;
+  border: none;
+}
+
+#select {
+  border: none;
+  outline: none;
+  margin-top: 10px;
+  width: 406px;
+  height: 34px;
+  border-radius: 8px;
+  padding-left: 10px;
+
+  background: rgba(255, 255, 255, 0.1);
+}
 
 /* Meet our Teame */
+#meet-section {
+  border-radius: 18px;
+
+  background: rgba(255, 255, 255, 0.1);
+  max-width: 1200px;
+  /* border: 2px solid red; */
+  margin: 0 auto;
+  /* border: 2px solid coral; */
+}
 
 .meet-traning {
+
   gap: 20px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+}
+
+#meet h1 {
+  color: rgb(255, 255, 255);
+
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+#meet p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  text-align: center;
 }
 
 .div1 {
@@ -413,6 +552,7 @@ td {
   background-position: center;
   background-size: cover;
   height: 400px;
+  border-radius: 18px;
 }
 
 .div2 {
@@ -420,6 +560,7 @@ td {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  border-radius: 18px;
 }
 
 .div3 {
@@ -427,6 +568,7 @@ td {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  border-radius: 18px;
 }
 
 .div4 {
@@ -435,6 +577,7 @@ td {
   background-position: center;
   background-size: cover;
   height: 400px;
+  border-radius: 18px;
 }
 
 .div5 {
@@ -442,6 +585,7 @@ td {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  border-radius: 18px;
 }
 
 .div6 {
@@ -449,6 +593,7 @@ td {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  border-radius: 18px;
 }
 
 #positn {
@@ -464,6 +609,11 @@ h4 {
 }
 
 /* Footer Section Start Here */
+#footer {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .footer-section {
   justify-content: space-around;
 }
