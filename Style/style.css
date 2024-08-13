@@ -419,6 +419,44 @@ img {
   width: 500px;
 }
 
+/* My unique section Start here  */
+#un-sec {
+  width: 1200px;
+  margin: 0 auto;
+  height: 1000px;
+  border: 2px solid red;
+  background-color: white;
+}
+
+
+#all {
+  /* color: white; */
+  font-size: 50px;
+  text-align: center;
+  color: red;
+}
+
+#info {
+  text-align: center;
+}
+
+#many {
+  margin-left: 250px;
+  margin-bottom: 20px;
+}
+
+#package {
+  margin-left: 280px;
+  list-style-type: decimal;
+  font-size: 30px;
+}
+
+.progress h1 {
+  text-align: center;
+}
+
+/* My unique Section Ends here */
+
 /* BMI Calculator Style */
 .chart-bmi h1 {
   color: rgb(255, 255, 255);
