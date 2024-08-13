@@ -1,0 +1,182 @@
+/* Responsive For mobile   */
+@media screen and (max-width:576px) {
+
+  #fitness-title {
+    margin-top: 50px;
+  }
+
+  .navbar {
+    /* width: 50%; */
+  }
+
+  #nav {
+    width: 341px;
+    /* padding-right: 100px; */
+  }
+
+  .nav-links {
+    visibility: hidden;
+    /* width: 0%; */
+
+  }
+
+  .nav-links li a {
+    width: 0px;
+  }
+
+  #about {
+    width: 0px;
+    visibility: hidden
+  }
+
+  .header-section {
+    width: 100%;
+  }
+
+  .body {
+    width: 100%;
+    /* margin-left: 30px; */
+    padding: 20px;
+  }
+
+  #five {
+    margin-left: -40px;
+  }
+
+
+  #ball {
+    /* position: relative; */
+    margin-left: -10px;
+    border-radius: 50%;
+    background: rgb(230, 83, 60);
+    z-index: 2;
+  }
+
+  #plays {
+    /* z-index:200; */
+    left: 25px;
+    /* color: green; */
+    top: 430px;
+  }
+
+  #bars {
+    color: white;
+    top: -45px;
+    font-size: 2rem;
+    position: relative;
+    right: -300px;
+    visibility: visible;
+    /* margin-right: 100px; */
+  }
+
+  .header-section {
+    height: 100%;
+  }
+
+  .jhon {
+    margin-top: 100px;
+  }
+
+  #five {
+    /* margin-right: -400px; */
+    /* position: relative; */
+    right: 40px;
+  }
+
+  #three {
+    left: 5px;
+  }
+
+  #ball {
+    left: 20px;
+  }
+
+  #header-containt {
+    flex-direction: column;
+
+  }
+
+  /* Change your habbit Start */
+  #change-habbit {
+    width: 100%;
+    height: auto;
+  }
+
+  #change {
+    padding: 10px;
+  }
+
+  #change h1 {
+    font-size: 50px;
+  }
+
+  .workout-style {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-left: 10px;
+  }
+
+  .workout-style>div {
+    /* width: 100%; */
+    /* margin: 0 auto; */
+  }
+
+  .workout-style img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Change habbits ends */
+
+
+
+  .extra-run {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+
+  }
+
+  .zeme-style {
+    grid-template-columns: 1fr;
+
+  }
+
+
+
+  */ .extra-descrip {
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+
+  }
+
+  .chart {
+    flex-direction: column;
+  }
+
+  .meet-traning {
+    grid-template-columns: 1fr;
+
+
+  }
+
+  .div1,
+  .div2,
+  .div3,
+  .div4,
+  .div5,
+  .div6 {
+    height: 500px;
+  }
+
+
+
+
+  .footer-section {
+    flex-direction: column;
+  }
+
+}

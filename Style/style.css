@@ -16,13 +16,15 @@
 /* Share Style */
 
 * {
-
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  /* border: 2px dashed coral; */
 }
 
-
+body {
+  /* border: 3px solid green; */
+}
 
 .color-gray {
   color: rgba(255, 255, 255, 0.5);
@@ -91,9 +93,10 @@ img {
 /* Header Style */
 .header-section {
   box-sizing: border-box;
-  width: 100%;
+  /* width: 100%; */
+  max-width: 1490px;
   background-color: black;
-  height: 860px;
+  /* height: 860px; */
   /* border: 2px solid red; */
   /* background-color: rgb(28, 27, 27); */
 }
@@ -114,7 +117,7 @@ img {
 
 .nav-links {
   /* border: 2px solid salmon; */
-  width: 480px;
+  width: auto;
   height: 60px;
   list-style: none;
   gap: 50px;
@@ -237,8 +240,8 @@ img {
   color: white;
   position: relative;
   top: 430px;
-  z-index: 100;
-  left: -66px;
+  z-index: 200;
+  left: -65px;
 }
 
 #ball {
@@ -272,8 +275,7 @@ img {
 #change-habbit {
   margin: 0 auto;
   width: 1080px;
-  height: 660px;
-
+  height: 660px
 }
 
 #change {
@@ -321,12 +323,17 @@ img {
 
 /* Run Extra style start here */
 .extra-run {
+  border-radius: 18px;
+
+  background: rgb(34, 34, 34);
+  /* background: black; */
   box-sizing: border-box;
   /* margin-top: 20px; */
   width: 1200px;
-  height: 370px;
-  border: 2px solid red;
-  margin: 180px auto;
+  /* height: 370px; */
+  /* border: 2px solid red; */
+  margin: 0px auto;
+  padding-top: 20px;
   justify-content: space-between;
   padding: 20px;
 
@@ -361,13 +368,15 @@ img {
 }
 
 .zeme-style {
+  width: 100%;
+  /* border: 4px dashed cadetblue; */
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
   /* justify-content: space-between; */
 }
 
-.zeme-style .div img {
+.zeme-style img {
   width: 100%;
 }
 
@@ -446,6 +455,7 @@ td {
   position: relative;
   top: 240px;
   left: 70px;
+  width: 100px;
 }
 
 #positn h1,
@@ -467,135 +477,5 @@ h4 {
 }
 
 #fitness {
-  width: 480px;
-}
-
-/* Responsive For mobile   */
-@media screen and (max-width:576px) {
-
-  #fitness-title {
-    margin-top: 50px;
-  }
-
-  .nav-links {
-    visibility: hidden;
-
-  }
-
-  /* .header-section {
-    width: 100%;
-  } */
-
-  .body {
-    /* margin-left: 30px; */
-    padding: 20px;
-  }
-
-  #five {
-    margin-left: -40px;
-  }
-
-
-  #ball {
-    /* position: relative; */
-    margin-left: -10px;
-    border-radius: 50%;
-    background: rgb(230, 83, 60);
-    z-index: 2;
-  }
-
-  #plays {
-    z-index: 2;
-  }
-
-  #bars {
-    color: white;
-    top: -45px;
-    font-size: 2rem;
-    position: relative;
-    right: -310px;
-    visibility: visible;
-  }
-
-  .header-section {
-    height: 100%;
-  }
-
-  .jhon {
-    margin-top: 100px;
-  }
-
-  #five {
-    /* margin-right: -400px; */
-    /* position: relative; */
-    right: 40px;
-  }
-
-  #three {
-    left: 5px;
-  }
-
-  #ball {
-    left: 20px;
-  }
-
-  #header-containt {
-    flex-direction: column;
-
-  }
-
-  .workout-style {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .workout-style>div {
-    margin: 0 auto;
-  }
-
-  .extra-run {
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
-    /* justify-content: center; */
-
-  }
-
-  .extra-descrip {
-    margin: 0 auto;
-    text-align: center;
-    margin-bottom: 20px;
-
-  }
-
-  .chart {
-    flex-direction: column;
-  }
-
-  .meet-traning {
-    grid-template-columns: 1fr;
-
-
-  }
-
-  .div1,
-  .div2,
-  .div3,
-  .div4,
-  .div5,
-  .div6 {
-    height: 400px;
-
-  }
-
-  .zeme-style {
-    /* display: grid; */
-    grid-template-columns: 1fr;
-
-  }
-
-  .footer-section {
-    flex-direction: column;
-  }
-
+  /* width: 480px; */
 }
