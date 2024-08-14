@@ -14,8 +14,13 @@
 
 
 /* Share Style */
+* {
+  border: 1px dashed coral;
+}
+
 body {
-  background-color: black;
+  background: black;
+  border: 2px solid green;
 
 }
 
@@ -152,8 +157,8 @@ img {
 }
 
 .body {
-  width: 500px;
-  height: 400px;
+  width: 100%;
+  height: auto;
   margin: 70px auto;
 }
 
@@ -166,7 +171,7 @@ img {
 #five {
   position: relative;
   top: 160px;
-  left: 280px;
+  left: 200px;
   width: 180px;
   height: 100px;
   color: white;
@@ -337,6 +342,9 @@ img {
 
 .extra-descrip {
   margin-right: 150px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   /* width: 300px; */
   /* height: 300px; */
 }
@@ -349,9 +357,12 @@ img {
   line-height: 120%;
   letter-spacing: 0%;
   text-align: left;
+  margin-bottom: 15px;
 }
 
-.extra-descrip p {}
+.extra-descrip p {
+  text-align: center;
+}
 
 #dode>img {
   width: 450px;
@@ -359,15 +370,10 @@ img {
   border-radius: 16px;
 }
 
-/* My Unique Style */
-#hatu img {
-  width: 600px;
 
-}
-
-.reason2 {
+/* .reason2 {
   flex-direction: row-reverse;
-}
+} */
 
 /* traning and exercise style */
 #traning-style {
@@ -388,6 +394,7 @@ img {
   line-height: 120%;
   letter-spacing: 0%;
   text-align: left;
+  margin-bottom: 10px;
 }
 
 .traning p {
@@ -398,6 +405,7 @@ img {
   line-height: 24px;
   letter-spacing: 0.3px;
   text-align: left;
+  margin-bottom: 10px;
 }
 
 .zeme-style {
@@ -422,8 +430,8 @@ img {
 /* My unique section Start here  */
 #un-sec {
   width: 1200px;
+  height: 800px;
   margin: 0 auto;
-  height: 1000px;
   border: 2px solid red;
   background-color: white;
 }
@@ -451,8 +459,23 @@ img {
   font-size: 30px;
 }
 
+.progress {
+  width: 700px;
+  height: auto;
+  border: 2px solid salmon;
+  margin: 0 auto;
+}
+
 .progress h1 {
   text-align: center;
+  font-size: 34px;
+}
+
+#skill-container {
+  background-color: gray;
+  height: 500px;
+  max-width: 750px;
+  margin: 30px auto;
 }
 
 /* My unique Section Ends here */

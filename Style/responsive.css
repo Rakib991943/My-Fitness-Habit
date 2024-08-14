@@ -194,14 +194,23 @@
   }
 
   /* My Unique Section Style Start here  */
+
+  /* #info {
+    text-align: right;
+  } */
+
   #all {
     margin-left: 0px;
   }
 
   #un-sec {
     width: 100%;
+    height: auto;
     /* background-color: white; */
   }
+
+
+
 
   #many {
     margin-left: 44px;
@@ -213,6 +222,10 @@
     margin-left: 50px;
   }
 
+  .progress {
+    width: 100%;
+
+  }
 
   /* My Unique Section Style Ends here  */
 
@@ -252,6 +265,7 @@
 
   /* This is footer section  */
   .footer-section {
+    width: 100%;
     flex-direction: column;
   }
 
