@@ -7,6 +7,7 @@
 
   * {
     border: 1px dashed coral;
+    overflow-x: hidden;
   }
 
   body {
@@ -15,6 +16,8 @@
   }
 
   .navbar {
+    margin: 0;
+    padding: 0;
     /* width: 50%; */
   }
 
@@ -79,7 +82,12 @@
   }
 
   .header-section {
-    height: 100%;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border: none;
   }
 
   .jhon {
@@ -102,7 +110,8 @@
 
   #header-containt {
     flex-direction: column;
-
+    margin: 0;
+    padding: 0;
   }
 
   /* Change your habbit Start */
@@ -252,11 +261,15 @@
   .div4,
   .div5,
   .div6 {
-    height: 500px;
+    height: 580px;
     /* padding: 20px; */
     margin-left: 20px;
     margin-right: 20px;
     /* width: 100%; */
+  }
+
+  .div4 img {
+    width: 100%;
   }
 
   /* #positn{
