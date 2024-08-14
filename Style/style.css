@@ -395,6 +395,17 @@ img {
 
 }
 
+
+#img2 {
+  /* transform: scaleX(1.4); */
+  filter: sepia(1) saturate(10) hue-rotate(90deg);
+  background-color: rgba(0, 71, 255, 0.3);
+  opacity: 0.5;
+  /* mix-blend-mode: color; */
+  /* pointer-events: none; */
+
+}
+
 #img5 {
   /* transform: scaleX(1.2); */
   filter: sepia(1) saturate(10) hue-rotate(90deg);
