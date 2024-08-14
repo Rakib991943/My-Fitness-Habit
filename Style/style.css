@@ -430,10 +430,10 @@ img {
 /* My unique section Start here  */
 #un-sec {
   width: 1200px;
-  height: 800px;
+  height: auto;
   margin: 0 auto;
   border: 2px solid red;
-  background-color: white;
+  /* background-color:  */
 }
 
 
@@ -455,8 +455,13 @@ img {
 
 #package {
   margin-left: 280px;
-  list-style-type: decimal;
+
   font-size: 30px;
+}
+
+#package ul li {
+  color: red;
+  list-style-type: decimal;
 }
 
 .progress {
@@ -467,15 +472,124 @@ img {
 }
 
 .progress h1 {
+  color: red;
   text-align: center;
   font-size: 34px;
 }
 
 #skill-container {
   background-color: gray;
-  height: 500px;
+  height: auto;
   max-width: 750px;
   margin: 30px auto;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+#skill-container li {
+  list-style: none;
+  font-weight: bolder;
+  font-size: 1.4rem;
+  position: relative;
+  height: 100px;
+  color: white;
+
+}
+
+#skill-container li::before {
+  content: '';
+  width: 100%;
+  height: 40px;
+  background-color: aliceblue;
+  position: absolute;
+  top: 35px;
+  border-radius: 30px;
+
+
+
+}
+
+#skill-container li::after {
+  content: '';
+  width: 100%;
+  height: 40px;
+  /* background-color: red; */
+  position: absolute;
+  left: 0px;
+  top: 35px;
+  border-radius: 30px;
+
+
+  animation-duration: 3s;
+  animation-timing-function: ease;
+  animation-delay: 1;
+  animation-fill-mode: forwards;
+}
+
+#skill-container li#first::after {
+  animation-name: first;
+}
+
+#skill-container li#second::after {
+  animation-name: second;
+}
+
+#skill-container li#third::after {
+  animation-name: third;
+}
+
+#skill-container li#four::after {
+  animation-name: four;
+}
+
+#skill-container li#fifth::after {
+  animation-name: fifth;
+}
+
+#skill-container li#six::after {
+  animation-name: six;
+}
+
+@keyframes first {
+  to {
+    width: 0px;
+    background: rgb(225, 178, 7);
+  }
+}
+
+@keyframes second {
+  to {
+    width: 25%;
+    background: rgb(225, 178, 7);
+  }
+}
+
+@keyframes third {
+  to {
+    width: 35%;
+    background: rgb(225, 178, 7);
+  }
+}
+
+@keyframes four {
+  to {
+    width: 45%;
+    background: rgb(225, 178, 7);
+  }
+}
+
+@keyframes fifth {
+  to {
+    width: 65%;
+    background: rgb(225, 178, 7);
+  }
+}
+
+@keyframes six {
+  to {
+    width: 85%;
+    background: rgb(225, 178, 7);
+  }
 }
 
 /* My unique Section Ends here */
