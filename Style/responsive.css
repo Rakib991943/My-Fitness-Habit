@@ -6,12 +6,12 @@
   }
 
   * {
-    border: 1px dashed coral;
+    /* border: 1px dashed coral; */
     overflow-x: hidden;
   }
 
   body {
-    border: 2px solid green;
+    /* border: 2px solid green; */
 
   }
 
@@ -53,6 +53,7 @@
 
   #five {
     margin-left: -40px;
+    /* overflow-x: hidden; */
   }
 
 
@@ -78,6 +79,7 @@
     position: relative;
     right: -300px;
     visibility: visible;
+    overflow: hidden;
     /* margin-right: 100px; */
   }
 
@@ -204,9 +206,7 @@
 
   /* My Unique Section Style Start here  */
 
-  /* #info {
-    text-align: right;
-  } */
+
 
 
   #all {
